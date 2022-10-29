@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ex4 {
 
   public static boolean isSquareNumber(int n) {
@@ -10,7 +12,7 @@ public class ex4 {
     int[] a = new int[100];
     int idx = 0;
     do {
-      n = new java.util.Scanner(System.in).nextInt();
+      n = new Scanner(System.in).nextInt();
       if (n <= 0) {
         System.out.println("Nhập lại n");
       }
